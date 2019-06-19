@@ -1,16 +1,19 @@
-.circle
+.circle-container
 	position: relative
-	height: 10em
-	width: 10em
+
+.circle, .circle-2
+	height: 22em
+	width: 22em
 	display: flex
 	justify-content: center
 	align-items: center
 	transition: opacity 2s ease
 	opacity: 1
-	margin: 0
+	margin: 1em
+	padding: 0
+	color: #fff
 	&::after
 		content: ""
-		display: block
 		position: absolute
 		top: 0
 		right: 0
@@ -22,48 +25,76 @@
 		border-radius: 100%
 		box-sizing: border-box
 		transform-origin: center center
-		transform: scale(2.1)
-		animation: 5s .1s pulse infinite ease
+		animation: 5s 5s pulse infinite ease
 		opacity: 1
 	+r(1024)
-		width: 8em
-		height: 8em  
+		width: 18em
+		height: 18em  
+
+.circle
+	cursor: pointer
+	position: relative
+
+.circle-2
+	position: absolute
+	top: 0
+	left: 0
+	bottom: 0
+	right: 0
+	animation-name: glitch-anim-3
+	animation-duration: var(--time-anim)
+	animation-timing-function: linear
+	animation-iteration-count: infinite
 
 .circle-text
 	position: relative
+	display: block
+	width: 300px
+	text-align: center
 	min-height: 1.5em
-	&::after
-		content: ''
+	p
+		display: block
 		position: absolute
-		top: -0.3em
-		left: 50%
-		margin: 0
-		padding: 0
-		opacity: 0
+		top: 0
+		left: 0
+		bottom: 0
+		right: 0
 		font-size: 2em
-		white-space: nowrap
-		transform: translateX(-50%)
-		animation: fadeInOut 10s linear infinite alternate
+		opacity: 0
+		&:nth-child(1)
+			animation: fadeInOut 3s ease 1
+			animation-delay: .5s
+		&:nth-child(2)
+			animation: fadeInOut 3s ease 1
+			animation-delay: 4s
+		&:nth-child(3)
+			animation: fadeInOutLast 3s ease 1
+			animation-delay: 7.5s
+			animation-fill-mode: forwards
 
 @keyframes fadeInOut
 	0%
-		content: 'испей меня'
 		opacity: 0
 	50%
 		opacity: 1
 	100%
 		opacity: 0
-		content: 'съешь меня'
+
+@keyframes fadeInOutLast
+	0%
+		opacity: 0
+	100%
+		opacity: 1
 
 @keyframes pulse
 	0%
-		transform: scale(2)
-		opacity: 0
+		transform: scale(1)
+		opacity: .2
 
 	50%
-		transform: scale(2.2)
+		transform: scale(1.1)
 		opacity: 1
 
 	100%
-		transform: scale(2)
-		opacity: 0
+		transform: scale(1)
+		opacity: .2

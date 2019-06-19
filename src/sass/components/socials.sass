@@ -1,0 +1,41 @@
+.flats
+	animation-name: glitch-anim-text
+	animation-duration: var(--time-anim)
+	animation-timing-function: linear
+	animation-iteration-count: infinite
+
+.flats
+	display: flex
+	animation-delay: calc(var(--delay-anim) + var(--time-anim) * 0.25)
+	+r(600)
+		flex-wrap: wrap
+		justify-content: center
+		margin-bottom: 1em
+
+.flat-item
+	border-radius: 10%
+	margin: 0.3em 0.9em
+	width: 4em
+	height: 4em
+	background-color: #fff
+	background-repeat: no-repeat
+	background-size: cover
+	padding: 0
+	transition: .2s background-color ease
+	&:hover
+		background-color: #761C1E
+	&.instagram
+		background-image: url(../img/icons/i.svg)
+	&.vk
+		background-image: url(../img/icons/gb.svg)
+	&.soundcloud
+		background-image: url(../img/icons/sc.svg)
+	&.telegram
+		background-image: url(../img/icons/tg.svg)
+	&.twitter
+		background-image: url(../img/icons/tt.svg)
+	+r(600)
+		width: 3em
+		margin: 5px
+		height: 3em
+		

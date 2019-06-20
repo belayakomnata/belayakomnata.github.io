@@ -12,3 +12,6 @@ PageList:
 
 - file: contacts.html
   ready: 100
+
+- file: 404.html
+  ready: 100

@@ -1,0 +1,7 @@
+User-agent: *
+Host: belayakomnata.me
+Sitemap: https://belayakomnata.me/sitemap.xml
+
+User-agent: Yandex
+Host: belayakomnata.me
+Sitemap: https://belayakomnata.me/sitemap.xml

@@ -7,6 +7,8 @@ const config = {
     env       : 'development',
     production: production,
 
+    entry: './',
+
     src: {
         root         : 'src',
         templates    : 'src/templates',

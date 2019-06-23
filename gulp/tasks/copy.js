@@ -20,8 +20,11 @@ gulp.task('copy:fonts', () => gulp
 
 gulp.task('copy:data', () => gulp
   .src([
+    config.entry + '.gitignore', 
     config.src.root + '/CNAME', 
-    config.src.root + '/favicon.ico'
+    config.src.root + '/favicon.ico',
+    config.src.root + '/robots.txt',
+    config.src.root + '/sitemap.xml'
   ])
   .pipe(gulp.dest(config.dest.root))
 );

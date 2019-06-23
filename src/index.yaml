@@ -10,6 +10,9 @@ PageList:
 - file: music.html
   ready: 100
 
+- file: bio.html
+  ready: 100
+
 - file: contacts.html
   ready: 100
 

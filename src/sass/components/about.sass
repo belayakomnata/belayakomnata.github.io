@@ -1,0 +1,38 @@
+.img-content
+    width: 100%
+    margin: 1em auto .5em auto
+    &.simple
+        text-align: center
+        img
+            max-width: 100%
+            max-height: auto
+            display: inline-block
+    img
+        display: inline-block
+        width: auto
+        height: auto
+        min-height: 250px
+        max-height: 500px
+    div
+        margin: 1em 0
+        display: block
+        font-style: italic
+        font-size: .8em  
+        span.name   
+            font-size: 1.2em 
+    .superman
+        display: inline-block
+        position: relative
+        margin: 0
+        padding: 0
+        img
+            
+            &.alt
+                position: absolute
+                top: 0
+                left: 0
+                z-index: 20
+                opacity: 0
+            &:hover
+                &.alt
+                    opacity: 1

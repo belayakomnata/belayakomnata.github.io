@@ -3,21 +3,25 @@
     margin: 1em auto .5em auto
     &.simple
         text-align: center
-        img
-            max-width: 100%
-            max-height: auto
-            display: inline-block
     img
         display: inline-block
         width: auto
         height: auto
         min-height: 250px
         max-height: 500px
+        +r(600)
+            max-width: 100%
+            max-height: auto
+            display: inline-block
     div
         margin: 1em 0
         display: block
         font-style: italic
         font-size: .8em  
+        line-height: 1.5em
+        +r(600)
+            font-size: .65em
+            line-height: 1.2em
         span.name   
             font-size: 1.2em 
     .superman

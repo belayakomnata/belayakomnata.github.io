@@ -87,7 +87,7 @@ title: шоурум
                     <label for="entry.1207522949">что-то еще?</label>
                     <input type="text" name="entry.1207522949" id="entry.1207522949" autocomplete="off" placeholder="если есть что добавить">
                 </div>
-                <input type="submit" value="отправить" class="button">
+                <input type="submit" value="отправить" class="button" id="buyButton">
             </form>
                 
             <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
@@ -189,10 +189,13 @@ title: шоурум
 <script>
     var submitted = false;
     var form = document.getElementById("gform");
-    form.addEventListener("submit", function() {
-        form.reset();
-        document.getElementById("size-modal").getElementsByClassName("modal-close")[0].click();
-        submitted = false;
+    var buyButton = document.getElementById("buyButton");
+    
+    buyButton.addEventListener("click", function(e) {
+        setTimeout(function() {
+            form.reset();
+            document.getElementById("size-modal").getElementsByClassName("modal-close")[0].click();
+        }, 500);
     });
 </script>
 

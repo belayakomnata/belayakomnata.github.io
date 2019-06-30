@@ -13,6 +13,9 @@ PageList:
 - file: bio.html
   ready: 100
 
+- file: shop.html
+  ready: 100
+
 - file: contacts.html
   ready: 100
 

@@ -1,0 +1,79 @@
+
+.content.shop
+	.title
+		margin-bottom: 0
+
+.item
+	max-width: 500px
+	margin: 0 auto
+	&__gallery
+		display: flex
+		justify-content: center
+		flex-direction: row
+		align-items: center
+		.gallery__item
+			span
+				font-size: 0.7em
+				color: #ccc
+				display: block
+			&_photo
+				max-width: 300px
+				margin: 5px 10px 0
+				filter: grayscale(80%)
+				+r(768)
+					max-width: 250px
+		+r(600)
+			flex-direction: column
+	&__price
+		a
+			font-size: inherit
+	&__description
+		display: flex
+		justify-content: center
+		align-items: center
+		+r(600)
+			flex-direction: column
+		a
+			font-size: 1em
+			line-height: 1em
+			+r(600)
+				margin-left: 0 !important
+		.buy
+			margin-left: 1.8em
+		.link
+			margin-left: 1em
+			display: inline-block
+			padding: 0 !important
+			white-space: nowrap
+	&__title
+		font-style: 1.3em
+		font-weight: 200
+
+.form
+	.button
+		margin: 1.5em auto auto auto
+		color: #ffffff
+		background-color: #333
+		font-size: 0.8em
+	.form-item
+		display: flex
+		align-items: flex-start
+		flex-direction: column
+		text-align: left
+		margin: 0.6em 0
+		label
+			display: inline
+			font-size: 0.8em
+			font-weight: 200
+		input, select
+			width: 100%
+			display: block
+			color: #000
+			padding: 0.7em 0.3em
+			background-color: #9e9e9e
+			cursor: pointer
+			font-weight: 600
+			letter-spacing: 2px
+			transition: all .5s ease
+			border-bottom: none
+			text-indent: 6px

@@ -5,13 +5,14 @@
     
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, maximum-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
     
     <!-- Theme Color -->
     <meta name="theme-color" content="#000000"/>
 	  <meta name="msapplication-navbutton-color" content="#000000"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="#000000"/>
-    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
     <link rel="stylesheet" href="css/app.css" />
@@ -23,20 +24,11 @@
     {% include "../partials/_menu.html" %}
     
     <div class="container">
-      <div class="logo">
-          <a href="/"><span>bелая комната</span></a>
-      </div>
+      {% include "../partials/_logo.html" %}
 
       {% block content %}{% endblock %}
 
-      <div class="flats">
-          <a href="https://instagram.com/belaja_komnata" class="flat-item instagram" target="_blank" rel="nofollow noopener"></a>
-          <a href="https://vk.com/bialy_pokoj" class="flat-item vk" target="_blank" rel="nofollow noopener"></a>
-          <a href="https://soundcloud.com/belayakomnata" class="flat-item soundcloud" target="_blank" rel="nofollow noopener"></a>
-          <a href="https://belayakomnata.bandcamp.com" class="flat-item bandcamp" target="_blank" rel="nofollow noopener"></a>
-          <a href="https://t.me/belayakomnata" class="flat-item telegram" target="_blank" rel="nofollow noopener"></a>
-          <a href="https://twitter.com/belayakomnata" class="flat-item twitter" target="_blank" rel="nofollow noopener"></a>
-      </div>
+      {% include "../partials/_socials.html" %}
     </div>
 
     <!-- Yandex.Metrika counter -->

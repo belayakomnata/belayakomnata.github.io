@@ -1,44 +1,93 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve">
-<g>
-	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M384.814,100.68l-53.458,257.136
-		c-1.259,6.071-8.378,8.822-13.401,5.172l-72.975-52.981c-4.43-3.217-10.471-3.046-14.712,0.412l-40.46,32.981
-		c-4.695,3.84-11.771,1.7-13.569-4.083l-28.094-90.351l-72.583-27.089c-7.373-2.762-7.436-13.171-0.084-16.003L373.36,90.959
-		C379.675,88.517,386.19,94.049,384.814,100.68z"/>
-	<path style="fill-rule:evenodd;clip-rule:evenodd;" d="M313.567,147.179l-141.854,87.367c-5.437,3.355-7.996,9.921-6.242,16.068
-		l15.337,53.891c1.091,3.818,6.631,3.428,7.162-0.517l3.986-29.553c0.753-5.564,3.406-10.693,7.522-14.522l117.069-108.822
-		C318.739,149.061,316.115,145.614,313.567,147.179z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2132"
+   version="1.1"
+   viewBox="0 0 120.38541 120.38541"
+   height="120.38541mm"
+   width="120.38541mm">
+  <defs
+     id="defs2126" />
+  <metadata
+     id="metadata2129">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-59.247769,-78.057292)"
+     id="layer1">
+    <g
+       transform="matrix(0.23227602,0,0,0.23227602,66.731315,86.877187)"
+       id="g2738">
+      <g
+         id="g2681">
+	<path
+   style="clip-rule:evenodd;fill-rule:evenodd"
+   d="m -50.053485,-47.752176 0.575327,547.627716 553.956318,-3.45197 1.15065,-544.751073 z M 384.814,100.68 331.356,357.816 c -1.259,6.071 -8.378,8.822 -13.401,5.172 L 244.98,310.007 c -4.43,-3.217 -10.471,-3.046 -14.712,0.412 l -40.46,32.981 c -4.695,3.84 -11.771,1.7 -13.569,-4.083 L 148.145,248.966 75.562,221.877 c -7.373,-2.762 -7.436,-13.171 -0.084,-16.003 L 373.36,90.959 c 6.315,-2.442 12.83,3.09 11.454,9.721 z"
+   id="path2677" />
+
+	<path
+   style="clip-rule:evenodd;fill-rule:evenodd"
+   d="m 313.567,147.179 -141.854,87.367 c -5.437,3.355 -7.996,9.921 -6.242,16.068 l 15.337,53.891 c 1.091,3.818 6.631,3.428 7.162,-0.517 l 3.986,-29.553 c 0.753,-5.564 3.406,-10.693 7.522,-14.522 L 316.547,151.091 c 2.192,-2.03 -0.432,-5.477 -2.98,-3.912 z"
+   id="path2679" />
+
 </g>
-<g>
+      <g
+         id="g2683">
 </g>
-<g>
+      <g
+         id="g2685">
 </g>
-<g>
+      <g
+         id="g2687">
 </g>
-<g>
+      <g
+         id="g2689">
 </g>
-<g>
+      <g
+         id="g2691">
 </g>
-<g>
+      <g
+         id="g2693">
 </g>
-<g>
+      <g
+         id="g2695">
 </g>
-<g>
+      <g
+         id="g2697">
 </g>
-<g>
+      <g
+         id="g2699">
 </g>
-<g>
+      <g
+         id="g2701">
 </g>
-<g>
+      <g
+         id="g2703">
 </g>
-<g>
+      <g
+         id="g2705">
 </g>
-<g>
+      <g
+         id="g2707">
 </g>
-<g>
+      <g
+         id="g2709">
 </g>
-<g>
+      <g
+         id="g2711">
 </g>
+    </g>
+  </g>
 </svg>

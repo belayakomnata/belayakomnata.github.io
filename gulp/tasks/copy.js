@@ -24,7 +24,8 @@ gulp.task('copy:data', () => gulp
     config.src.root + '/CNAME', 
     config.src.root + '/favicon.ico',
     config.src.root + '/robots.txt',
-    config.src.root + '/sitemap.xml'
+    config.src.root + '/sitemap.xml',
+    config.src.root + '/manifest.json'
   ])
   .pipe(gulp.dest(config.dest.root))
 );

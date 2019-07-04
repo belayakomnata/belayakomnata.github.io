@@ -56,8 +56,6 @@ title: шоурум
                 enctype="text/plain" 
                 action="https://docs.google.com/forms/d/1KiaNhtqpRWcf0hK5tqyGda_DZH7WysRq53reg3qUhwM/formResponse?" 
                 target="hidden_iframe" 
-                onreset="window.location.hash = 'success'"
-                onsubmit="this.submit(); this.reset()"
             >
                 <div class="form-item">
                     <label for="entry.371320649">как с тобой связаться?</label>
@@ -196,5 +194,17 @@ title: шоурум
         </div>
     </div>
 </div>
+
+<script>
+    var form = document.getElementById("gform");
+    var buyButton = document.getElementById("buyButton");
+    
+    buyButton.addEventListener("click", function(e) {
+        setTimeout(function() {
+            form.reset();
+            document.getElementsByClassName("modal-close")[0].click();
+        }, 400);
+    });
+</script>
 
 {% endblock %}

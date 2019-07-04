@@ -3,6 +3,7 @@
     "short_name": "bелая комната",
     "display": "standalone",
     "background_color": "#000",
+    "theme_color": "#000",
     "start_url": "./?utm_source=web_app_manifest",
     "description": "возрождаем индастриал, пока это не стало мэйнстримом.",
     "dir": "ltr",
@@ -29,6 +30,14 @@
       "type": "image/png"
     }, {
       "src": "img/touch/homescreen192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "img/touch/homescreen256.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "img/touch/homescreen512.png",
       "sizes": "192x192",
       "type": "image/png"
     }]

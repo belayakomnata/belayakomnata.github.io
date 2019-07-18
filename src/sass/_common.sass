@@ -18,6 +18,7 @@ h1, h2, h3, h4
 	margin: .5em 0
 
 .title
+	padding: 0 1em
 	margin-bottom: 1em
 	font-weight: 500
 	+r(1200)
@@ -36,3 +37,15 @@ h1, h2, h3, h4
 	display: none
 	+rmin(1024)
 		display: block
+
+.video-player, .audio-player
+	margin-bottom: 1em
+
+.text-small
+	font-size: .8em  
+	line-height: 1.5em
+
+.video-player
+	iframe
+		box-shadow: 0 0 10px rgba(#fff, .3)
+		

@@ -18,7 +18,8 @@ gulp.task('sitemap', function(done){
       { url: '/about', changefreq: 'weekly', priority: 0.8, lastmodrealtime: true, lastmodfile: 'src/templates/about.html' },
       { url: '/music', changefreq: 'weekly', priority: 0.8, lastmodrealtime: true, lastmodfile: 'src/templates/music.html' },
       { url: '/bio', changefreq: 'weekly', priority: 0.8, lastmodrealtime: true, lastmodfile: 'src/templates/bio.html' },
-      { url: '/contacts', changefreq: 'weekly', priority: 0.8, lastmodrealtime: true, lastmodfile: 'src/templates/contacts.html' }
+      { url: '/contacts', changefreq: 'weekly', priority: 0.8, lastmodrealtime: true, lastmodfile: 'src/templates/contacts.html' },
+      { url: '/golova', changefreq: 'weekly', priority: 0.8, lastmodrealtime: true, lastmodfile: 'src/templates/contacts.html' }
     ]
   });
 

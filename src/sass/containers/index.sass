@@ -11,6 +11,13 @@
 		margin: auto
 		justify-content: space-between
 
+.columns
+	display: flex
+	div
+		flex: 50%
+		+r(600)
+			width: 100%;
+
 .content
 	width: 40%
 	+r(768)
@@ -18,13 +25,18 @@
 	&.wide
 		+r(768)
 			width: 80%
-	line-height: 1.5em
+	line-height: 1.65em
 	text-align: center
 	font-size: 1.3em
+	.img-content a
+		font-size: 1em
+		padding: 0 5px
 	p
 		padding: .8em 0
-
-
+		a
+			font-size: 1em
+			margin: 0
+			padding: 0 5px
 	.sc-container
 		a
 			font-size: 1em
@@ -34,10 +46,10 @@
 		display: inline-block
 		margin: 15px 0
 		font-size: 1.5em
-		color: #fff
+		color: #d0d0d0
 		text-decoration: none
 		transition: color 0.3s ease
-		border-bottom: 2px dashed #fff
+		border-bottom: 2px dashed #d0d0d0
 		&:hover
 			color: darken(#ccc, 15%)
 			border-bottom: 2px dashed darken(#ccc, 15%)

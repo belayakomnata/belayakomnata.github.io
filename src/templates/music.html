@@ -1,33 +1,94 @@
 ---
 title: музыка
 ---
+{% import "data/data.html" as music %}
+
 {% extends "layouts/_layout.html" %}
 
 {% block content %}
 	
 <div class="content wide">
 	<h1 class="title">{{ title }}</h1>
-	<div class="sc-container">
-		<iframe 
-			class="sc-player"
-			width="100%" 
-			height="auto" 
-			scrolling="no" 
-			frameborder="no" 
-			allow="autoplay" 
-			src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/77704800&color=%23b00000&show_playcount=false&show_user=false&download=true&sharing=false"
-		></iframe>
-
-		<p>или слушать на <a href="https://belayakomnata.bandcamp.com/">bandcamp</a></p>
+	<h2 class="subtitle">альбом "тяжело быть мной"</h2>
+	<img src="/media/audio/cover.jpg" alt="обложка альбома" class="album-cover">
+	<div class="flex">
+		<p><a target="_blank" rel="nofollow noopener" href="https://soundcloud.com/belayakomnata">soundcloud</a></p>
+		<p><a target="_blank" rel="nofollow noopener" href="https://belayakomnata.bandcamp.com">bandcamp</a></p>
 	</div>
+	
+	{% include "partials/_audio-player.html" %}
 
-	<div class="text-small">
-		<h2>скачать синглы</h2>
-		<ul class="list">
-			<li><a href="/ruki">его руки дрожат</a></li>
-			<li><a href="/golova">голова затуманена небом</a></li>
-		</ul>
-	</div>
+	<script>
+		var iconImage = '/media/audio/icon.png';
+		var list = [
+		  {
+			"icon": iconImage,
+			"title": "красная помада (intro ft. AUF)",
+			"file": "/media/audio/красная помада.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "голова затуманена небом",
+			"file": "/media/audio/голова затуманена небом.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "внутри океана",
+			"file": "/media/audio/внутри океана.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "хватит быть собой",
+			"file": "/media/audio/хватит быть собой.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "его руки дрожат",
+			"file": "/media/audio/его руки дрожат.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "останови меня",
+			"file": "/media/audio/останови меня.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "забудь мою мечту",
+			"file": "/media/audio/забудь мою мечту.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "тяжело быть мной",
+			"file": "/media/audio/тяжело быть мной.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "трещина ползёт вниз",
+			"file": "/media/audio/трещина ползёт вниз.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "сон смешного человека",
+			"file": "/media/audio/сон смешного человека.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "тихо плачет воробей",
+			"file": "/media/audio/тихо плачет воробей.mp3"
+		  },
+		  {
+			"icon": iconImage,
+			"title": "скоро всё наладится",
+			"file": "/media/audio/скоро всё наладится.mp3"
+		  }
+		];
+		
+		AP.init({
+		  playList: list,
+		  volume: 0.6,
+		  autoPlay: true
+		});
+	</script>
 </div>
 
 {% endblock %}

@@ -4,7 +4,7 @@ html, body
 body
 	min-width: 320px
 	background: #000
-	color: #fff
+	color: #d0d0d0
 	margin: 0
 	padding: 0
 	font-size: 16px
@@ -47,7 +47,7 @@ h1, h2, h3, h4
 
 .video-player
 	iframe
-		box-shadow: 0 0 10px rgba(#fff, .3)
+		box-shadow: 0 0 10px rgba(#d0d0d0, .3)
 
 .list
 	margin-bottom: 2em
@@ -55,3 +55,31 @@ h1, h2, h3, h4
 		font-size: 1.3em	
 		padding: 5px 0
 		margin: 0
+
+.flex 
+	display: flex
+	justify-content: center
+	align-items: center
+	width: 100%
+	text-align: center
+	p
+		display: inline-block
+		margin: 5px 15px
+
+blockquote
+	font-size: 1em
+	margin: 50px auto
+	font-family: OpenSans
+	font-style: italic
+	text-align: left
+	color: #888
+	padding: 1em 30px 1em 
+	border-left: 2px solid #ccc
+	position: relative
+	&::before
+		content: "\201C"
+		color: #ccc
+		font-size: 4em
+		position: absolute
+		left: 10px
+		top: -10px

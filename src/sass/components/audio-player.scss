@@ -1,3 +1,4 @@
+
 $primaryColor: #ccc;
 $apBG: #1C1E23;
 $plBG: #272A31;
@@ -21,25 +22,6 @@ $barSize: 3px;
 $apZ: 99999;
 $volZ: 88888;
 $plZ: 77777;
-
-.album-cover {
-  max-width: 350px;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
-
-.al-info {
-  margin: 1em auto;
-}
-.al-title {
-    font-size: 1.5em;
-    line-height: 0;
-}
-.al-small {
-  font-size: 1em;
-  display: block;
-}
 
 .ap {
   position: fixed;
@@ -110,7 +92,8 @@ $plZ: 77777;
 .track__time {
   position: absolute;
   top: 5px;
-  right: 0;
+  right: 8px;
+  font-size: .9em;
 }
 .progress-container {
   position: relative;

@@ -13,10 +13,12 @@
 
 .columns
 	display: flex
+	+r(1200)
+		flex-direction: column
 	div
 		flex: 50%
-		+r(600)
-			width: 100%;
+		+r(1200)
+			flex: 100%
 
 .content
 	width: 40%

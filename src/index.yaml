@@ -10,9 +10,6 @@ PageList:
 - file: music.html
   ready: 100
 
-- file: bio.html
-  ready: 100
-
 - file: shop.html
   ready: 100
 

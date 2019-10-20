@@ -52,7 +52,7 @@
             '</div>' +
             '</div>' +
             '<div class="pl-list__title">{title}</div>' +
-            '<a href="/{file}" title="скачать" class="pl-list__download" download></a>' +
+            '<a class="pl-list__download" href="{file}" download="{filename}" onclick="event.stopPropagation()"></a>' +
             '</li>',
             // settings
             settings = {
@@ -210,7 +210,10 @@
             playList.push.apply(playList, addList);
             addList.forEach(function(item) {
                 html.push(
-                    tplList.replace('{count}', count++).replace('{title}', item.title).replace('{file}', item.file)
+                    tplList.replace('{count}', count++)
+                           .replace('{title}', item.title)
+                           .replace('{file}', item.file)
+                           .replace('{filename}', item.file.replace('audio/', ''))
                 );
             });
             // If exist empty message
@@ -233,7 +236,11 @@
   
             playList.forEach(function(item, i) {
                 html.push(
-                    tplList.replace('{count}', i).replace('{title}', item.title).replace('{file}', item.file)
+                    tplList
+                        .replace('{count}', i)
+                        .replace('{title}', item.title)
+                        .replace('{file}', item.file)
+                        .replace('{filename}', item.file.replace('audio/', ''))
                 );
             });
   

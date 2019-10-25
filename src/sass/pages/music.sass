@@ -33,3 +33,33 @@ button.ap__controls.ap__controls--playlist svg,
   &::before
     content: '⇩'
     font-size: 20px
+
+.columns.music
+  img
+    min-height: auto
+  div
+    &:first-child
+      min-width: 300px
+      +r(600)
+        min-width: auto
+  +r(600)
+    margin-bottom: 60px
+
+.music-links
+  margin-left: 2em
+  xborder: 1px black solid
+  padding: 15px
+  column-count: 2
+  column-gap: 40px
+  text-align: left
+  a
+    font-size: 1.2em  
+    line-height: 1em
+    margin: 0.46em 0
+    display: inline-block
+  +r(1200)
+    align-items: center
+    font-size: 1em
+    display: flex
+    flex-direction: column
+    margin-left: 0

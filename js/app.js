@@ -1,7 +1,5 @@
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker
-        .register('/js/sw.js')
-        .then(() => { console.log('Service Worker Registered'); });
+    navigator.serviceWorker.register('/sw.js');
 }
 
 let deffer;
@@ -12,7 +10,6 @@ window.addEventListener('beforeinstallprompt', (e) => {
     deffer = e;
   
     pwaBtn.addEventListener('click', (ec) => {
-        pwaBtn.style.display = 'none';
         deffer.prompt();
         deffer.userChoice.then((choiceResult) => {
             if (choiceResult.outcome === 'accepted') {

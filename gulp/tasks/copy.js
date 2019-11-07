@@ -26,6 +26,7 @@ gulp.task('copy:data', () => gulp
     config.src.root + '/robots.txt',
     config.src.root + '/sitemap.xml',
     config.src.root + '/manifest.webmanifest',
+    config.src.root + '/js/sw.js',
     config.src.root + '/media/*/**'
   ])
   .pipe(gulp.dest(config.dest.root))

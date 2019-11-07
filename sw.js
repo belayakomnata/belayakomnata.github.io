@@ -3,7 +3,9 @@ this.addEventListener('install', function(e) {
       caches.open('site-store').then(function(cache) {
         return cache.addAll([
             '/',
-            '/favicon.ico', '/index.html', '/about.html', '/music.html', '/shop.html', '/contacts.html', '/404.html',
+            '/favicon.ico', '/index.html', 
+            '/about.html', '/music.html', '/shop.html', '/contacts.html', '/404.html',
+            '/about', '/music', '/shop', '/contacts', '/404',
             '/css/app.css',
             '/js/app.js', '/js/audio.js',
             
@@ -13,7 +15,7 @@ this.addEventListener('install', function(e) {
             '/img/about/btc.jpg', '/img/about/em-1.jpg', '/img/about/first-album.jpg', '/img/about/inst.jpg', 
             '/img/about/ruslan-1.jpg', '/img/about/rus-noise.jpg', '/img/about/early.jpg', '/img/about/em-2.jpg', 
             '/img/about/home.jpg', '/img/about/logo-about.jpg', '/img/about/ruslan-2.jpg', '/img/about/we.jpg',
-            
+
             '/audio/cover.jpg', '/audio/icon.png',
             '/audio/его руки дрожат.MP3', '/audio/скоро всё наладится.MP3', '/audio/тяжело быть мной.MP3', 
             '/audio/забудь мою мечту.MP3', '/audio/сон смешного человека.MP3', '/audio/хватит быть собой.MP3', 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 127.1076 125.24083"
+   height="125.24083mm"
+   width="127.1076mm">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-55.130727,-61.26649)"
+     id="layer1">
+    <g
+       transform="translate(108.32158,-6.7132093)"
+       id="layer1-3">
+      <rect
+         y="67.979027"
+         x="-53.190662"
+         height="125.39915"
+         width="127.28523"
+         id="rect943"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.26963022" />
+      <g
+         transform="matrix(0.71120413,0,0,0.7483146,-30.365994,85.938762)"
+         id="g891">
+        <g
+           style="display:inline"
+           transform="translate(-16.780915,-108.51792)"
+           id="layer1-8">
+          <rect
+             y="108.51896"
+             x="16.781122"
+             height="120.42162"
+             width="120.49512"
+             id="rect964"
+             style="fill:#000000;fill-opacity:1;stroke-width:0.26295373" />
+        </g>
+        <g
+           id="layer2">
+          <g
+             transform="matrix(3.3993495,0,0,3.410485,5.8529616,7.2803375)"
+             id="g962"
+             style="display:inline;fill:#000000">
+            <path
+               style="fill:#ffffff"
+               d="m 24,4 v 2 h 4 V 4 Z M 14,7 v 2 h 4 V 7 Z m 10,0 v 2 h 4 V 7 Z m -10,3 v 2 h 4 v -2 z m 10,0 v 2 h 4 v -2 z m -10,3 v 2 h 4 v -2 z m 10,0 v 2 h 4 V 13 Z M 4,16 v 2 h 4 v -2 z m 10,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 V 16 Z M 4,19 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 V 19 Z M 4,22 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 V 22 Z M 4,25 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z m 5,0 v 2 h 4 v -2 z"
+               id="path951" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
